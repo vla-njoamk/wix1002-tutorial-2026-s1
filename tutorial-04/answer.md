@@ -43,6 +43,7 @@ System.out.printf("%.2f",total);
 ### Question 2
 ### a
 ```java
+int sum == 0; //initialise sum
 for (x = 10; x < 0; x--) //infinite loop
     sum += x;
 ```
@@ -54,7 +55,7 @@ do{ // add {}
     x += 2;     
     y += x;                 
     System.out.println(x + " and " + y);
-} while (x < 100)
+} while (x < 100); //add ; for while in do-while
 ```
 ### c
 ```java
@@ -66,8 +67,9 @@ for ( x==1, y==20; x < y, x++, y-=2){ //use {} instead of ; for if
 ```java
 int i =1; //declare variable type
 while(i<=10) {   //make if statement functionable 
+    i++;
     if (i==10)       
-    System.out.println("Program End"); 
+        System.out.println("Program End"); 
 }
 ```
 ### Question 3
